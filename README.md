@@ -97,7 +97,7 @@ class Citadel(Extractor):
 from malduck import procmempe
 
 with procmempe.from_file("notepad.exe", image=True) as p:
-    resource_ data = p.pe.resource("NPENCODINGDIALOG")
+    data = p.pe.resource("NPENCODINGDIALOG")
 ```
 
 ## How to start
